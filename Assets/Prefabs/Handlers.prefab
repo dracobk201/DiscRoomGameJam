@@ -131,20 +131,40 @@ MonoBehaviour:
     useVariable: 1
     constantValue: {x: 0, y: 0}
     variable: {fileID: 11400000, guid: 21021f17c645c2542a9a1704c20de344, type: 2}
+  horizontalSinglePress:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: f375605159d8ea14fb217873bbb8826b, type: 2}
+  verticalSinglePress:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: f9721bb0ac611274bbe2e921574c077e, type: 2}
+  nonHorizontalAxisEvent: {fileID: 11400000, guid: f1cea87e760c1204f84c9367a32199d7,
+    type: 2}
+  nonVerticalAxisEvent: {fileID: 11400000, guid: 525a8093ee175b44e9292f49b98fdef5,
+    type: 2}
+  leftButtonEvent: {fileID: 11400000, guid: 0e5709c3a0dbd2e4b96b21df0db56fb3, type: 2}
+  rightButtonEvent: {fileID: 11400000, guid: 577dec219f9b1154cb0bc10ad6d24c5b, type: 2}
+  upButtonEvent: {fileID: 11400000, guid: f380b071aebb2ca43a1f8d621c113247, type: 2}
+  downButtonEvent: {fileID: 11400000, guid: a6cba56b33fcb9040b302d1bd11f3544, type: 2}
+  anyDirectionalAxisEvent: {fileID: 11400000, guid: 69185b2d82ab738479176f8e5278599a,
+    type: 2}
   cameraAxis:
     useVariable: 1
     constantValue: {x: 0, y: 0}
     variable: {fileID: 11400000, guid: 862f2b9d970db0047a3e4bffc1aa035a, type: 2}
-  movementAxisPerformed: {fileID: 11400000, guid: af1dc32aee2031c419f26a1378895137,
+  cameraLeftEvent: {fileID: 11400000, guid: eb62a54818a02b643bc1841a38bfd774, type: 2}
+  cameraRightEvent: {fileID: 11400000, guid: c84c51915eccb7147a8504a13b24c9e7, type: 2}
+  cameraUpEvent: {fileID: 11400000, guid: 07fe3368f8421d54ba9f3bd006c3749c, type: 2}
+  cameraDownEvent: {fileID: 11400000, guid: 1d4c296aaaa199148a4022559290fd61, type: 2}
+  anyCameraAxisEvent: {fileID: 11400000, guid: adbd136d5e5b7d04baf0e17f371b351d, type: 2}
+  noCameraVerticalAxis: {fileID: 11400000, guid: 8f50a64cbcc84e94292fa7882b0927f7,
     type: 2}
-  movementAxisCanceled: {fileID: 11400000, guid: cf1cec32cfe481b4eb53b7c90e9b46d6,
+  noCameraHorizontalAxis: {fileID: 11400000, guid: b32a75eb5b307dd4799ddafc6718bac4,
     type: 2}
-  cameraAxisPerformed: {fileID: 11400000, guid: fac0bfab9e2867b4ea4f3f40e448bfb2,
-    type: 2}
-  cameraAxisCanceled: {fileID: 11400000, guid: ded3eca766551614a98e69fc05eb1293, type: 2}
   startButtonEvent: {fileID: 11400000, guid: cc1fb3491f60c914abf70d15a244d3e2, type: 2}
-  squareButtonEvent: {fileID: 11400000, guid: bdff2087299eb204aaa98196d178e0cd, type: 2}
-  xButtonEvent: {fileID: 11400000, guid: 9d8c3c5206346104d9a1dee5ceaab4d5, type: 2}
+  fireButtonEvent: {fileID: 11400000, guid: bdff2087299eb204aaa98196d178e0cd, type: 2}
+  confirmButtonEvent: {fileID: 11400000, guid: 9d8c3c5206346104d9a1dee5ceaab4d5, type: 2}
   uiPanelActive:
     useVariable: 1
     constantValue: 0

@@ -20,8 +20,8 @@ public class CameraController : MonoBehaviour
 
     public void RotateCamera()
     {
-        rotAroundX += mouseAxis.Value.x * horizontalCameraSensitivity.Value;
-        rotAroundY += mouseAxis.Value.y * verticalCameraSensitivity.Value;
+        rotAroundX += mouseAxis.Value.x * horizontalCameraSensitivity.Value * Time.deltaTime;
+        rotAroundY += mouseAxis.Value.y * verticalCameraSensitivity.Value * Time.deltaTime;
 
         rotAroundX = Mathf.Clamp(rotAroundX, minCameraRotation.Value, maxCameraRotation.Value);
         CameraRotation();
