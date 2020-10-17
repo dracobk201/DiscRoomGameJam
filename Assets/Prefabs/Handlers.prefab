@@ -74,7 +74,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8555765506018123969}
-        m_TargetAssemblyTypeName: 
         m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
@@ -493,8 +492,8 @@ MonoBehaviour:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: 8b88a5e7f5eb0e043b6c4409ae629072, type: 2}
-  bgmAudioSource: {fileID: 0}
-  sfxAudioSource: {fileID: 0}
+  bgmAudioSource: {fileID: 8431537509646437278}
+  sfxAudioSource: {fileID: 9213244777541306550}
 --- !u!114 &6240870281215887533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +511,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6563887454675994691}
-        m_TargetAssemblyTypeName: 
         m_MethodName: MusicVolumeRefreshed
         m_Mode: 1
         m_Arguments:
@@ -540,8 +538,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6563887454675994691}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SfxVolumeRefreshed
+        m_MethodName: SFXVolumeRefreshed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

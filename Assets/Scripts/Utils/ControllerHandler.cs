@@ -17,7 +17,7 @@ public class ControllerHandler : MonoBehaviour
     [SerializeField] private BoolReference uiPanelActive = null;
     [SerializeField] private GameEvent uiChangeEvent = null;
 
-    private void Start()
+    private void Awake()
     {
         inputActions = new InputMaster();
         inputActions.PlayerControls.Movement.performed += context => MovementPerformed(context.ReadValue<Vector2>());
