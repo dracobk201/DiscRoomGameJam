@@ -2,6 +2,8 @@
 {
     #region Tags
     public const string PlayerTag = "Player";
+    public const string EnemyTag = "Enemy";
+    public const string PlayerDiscTag = "PlayerDisc";
     public const string GoalTag = "Finish";
     #endregion
 
