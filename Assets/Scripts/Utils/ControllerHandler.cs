@@ -226,6 +226,7 @@ public class ControllerHandler : MonoBehaviour
         if (Input.GetAxisRaw(Global.FireAxis) != 0 && !_isFireAxisInUse)
         {
             fireButtonEvent.Raise();
+            Debug.Log("FIRE!");
             _isFireAxisInUse = true;
         }
         else if (Math.Abs(Input.GetAxisRaw(Global.FireAxis)) < Global.Tolerance)

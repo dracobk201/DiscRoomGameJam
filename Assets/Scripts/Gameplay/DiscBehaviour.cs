@@ -31,8 +31,10 @@ public class DiscBehaviour : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         string targetTag = other.tag;
+        Debug.Log("targetTag" + targetTag);
         Destroy();
         if (targetTag.Equals(Global.EnemyTag) && gameObject.tag.Equals(Global.PlayerDiscTag))
             enemyImpacted.Raise();
     }
+
 }
