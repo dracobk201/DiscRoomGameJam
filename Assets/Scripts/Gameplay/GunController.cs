@@ -8,6 +8,11 @@ public class GunController : MonoBehaviour
     [SerializeField] private GameEvent playerShot = null;
     [SerializeField] private Transform discInitialPosition = null;
 
+    private void Awake()
+    {
+        Cursor.visible = false;    
+    }
+
     public void ShootDisc()
     {
         if (remainingDiscs.Value <= 0 && DebugMode.Value == false) return;

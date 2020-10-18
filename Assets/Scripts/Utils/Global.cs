@@ -5,6 +5,7 @@
     public const string EnemyTag = "Enemy";
     public const string PlayerDiscTag = "PlayerDisc";
     public const string GoalTag = "Finish";
+    public const string CameraMinimapTag = "MinimapCamera";
     #endregion
 
     #region Axis
@@ -24,10 +25,7 @@
     #endregion
 
     #region Animations
-    public const string IdleAnimationTrigger = "Idle";
-    public const string MoveAnimationTrigger = "Run";
-    public const string DeathAnimationTrigger = "Rest";
-    public const string CelebrateAnimationTrigger = "Jump";
+
     #endregion
 
     #region Constants
