@@ -2,6 +2,7 @@
 
 public class GunController : MonoBehaviour
 {
+    [SerializeField] private BoolReference DebugMode = null;
     [SerializeField] private DiscsRuntimeSet discs = null;
     [SerializeField] private IntReference remainingDiscs = null;
     [SerializeField] private GameEvent playerShot = null;
@@ -9,7 +10,7 @@ public class GunController : MonoBehaviour
 
     public void ShootDisc()
     {
-        if (remainingDiscs.Value > 0) return;
+        if (remainingDiscs.Value <= 0 && DebugMode.Value == false) return;
 
         var initialPosition = discInitialPosition.position;
         var initialRotation = discInitialPosition.rotation;
@@ -20,7 +21,7 @@ public class GunController : MonoBehaviour
             {
                 discs.Items[i].transform.localPosition = initialPosition;
                 discs.Items[i].transform.localRotation = initialRotation;
-                discs.Items[i].SetActive(true);
+                //discs.Items[i].SetActive(true);
                 remainingDiscs.Value--;
                 playerShot.Raise();
                 break;
