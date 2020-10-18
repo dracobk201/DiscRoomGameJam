@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8967119915313980030}
   - component: {fileID: 7061578173061252879}
   - component: {fileID: 5662895175424680854}
+  - component: {fileID: 1953835311749331627}
   - component: {fileID: 4326108406214957981}
   m_Layer: 0
   m_Name: Disc
@@ -111,6 +112,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &1953835311749331627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3747432133381290499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40ac10872a5a5d40a0be4f667291acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialVelocity: {x: 0, y: 0, z: 0}
+  minVelocity: 10
 --- !u!114 &4326108406214957981
 MonoBehaviour:
   m_ObjectHideFlags: 0

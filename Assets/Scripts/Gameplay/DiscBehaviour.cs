@@ -12,8 +12,8 @@ public class DiscBehaviour : MonoBehaviour
         print("Alive)))");
         TryGetComponent(out Rigidbody rigidbodyResult);
         StartCoroutine(AutoDestruction());
-        rigidbodyResult.velocity = Vector2.zero;
-        rigidbodyResult.AddForce(transform.forward * discVelocity.Value, ForceMode.Impulse);
+        rigidbodyResult.velocity = transform.forward * discVelocity.Value;
+        //rigidbodyResult.AddForce(transform.forward * discVelocity.Value, ForceMode.Impulse);
     }
 
     private void Destroy()
@@ -25,7 +25,7 @@ public class DiscBehaviour : MonoBehaviour
     private IEnumerator AutoDestruction()
     {
         yield return new WaitForSeconds(discTimeOfLife.Value);
-        Destroy();
+        //Destroy();
     }
 
     private void OnTriggerEnter(Collider other)
