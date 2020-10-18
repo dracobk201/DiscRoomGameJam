@@ -32,9 +32,10 @@ public class DiscBehaviour : MonoBehaviour
     {
         string targetTag = other.tag;
         Debug.Log("targetTag" + targetTag);
-        Destroy();
         if (targetTag.Equals(Global.EnemyTag) && gameObject.tag.Equals(Global.PlayerDiscTag))
+        {
             enemyImpacted.Raise();
+        }
     }
 
 }

@@ -10,7 +10,7 @@ public class DiskRetriever : MonoBehaviour
     {
         string targetTag = other.tag;
         Debug.Log("targetTag" + targetTag);
-        if (targetTag.Equals(Global.PlayerDiscTag) && gameObject.tag.Equals(Global.PlayerDiscTag))
+        if (targetTag.Equals(Global.PlayerDiscTag))
         {
             diskRetrieved.Raise();
             Destroy(other.gameObject);
