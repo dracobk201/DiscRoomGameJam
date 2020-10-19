@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class enemyNearbyColliderChecker : MonoBehaviour
+public class EnemyNearbyColliderChecker : MonoBehaviour
 {
     [SerializeField] private AvoidPlayer avoidPlayer = null;
 
