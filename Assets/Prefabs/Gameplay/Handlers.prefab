@@ -200,6 +200,7 @@ Transform:
   - {fileID: 3469483606865729121}
   - {fileID: 6601411587446933830}
   - {fileID: 5806094416583670674}
+  - {fileID: 2285008611391779200}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -559,6 +560,86 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6563887454675994691}
         m_MethodName: SFXVolumeRefreshed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &7405967695517445454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2285008611391779200}
+  - component: {fileID: 2878533911436052637}
+  - component: {fileID: 3819975346289586297}
+  m_Layer: 0
+  m_Name: Time
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2285008611391779200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7405967695517445454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6889946166899003986}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2878533911436052637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7405967695517445454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99b8bf33c64666438390b485534e35b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualLevelTime:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: b104df0752a2ab142b39835f4ed9282d, type: 2}
+  actualTimeProgress:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 03244687622e22b4b90da73d193765fb, type: 2}
+  timesUp: {fileID: 11400000, guid: a6a1150b308714d43b5f04169e8a1a4a, type: 2}
+--- !u!114 &3819975346289586297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7405967695517445454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18e8d76b6b3f54f94b92fae64ef79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 7323870fdebf8944d97df60d29f1b5a8, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2878533911436052637}
+        m_MethodName: SetupTimer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
