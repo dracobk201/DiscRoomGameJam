@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0224c4e955acd93489bd88e4aefbc935, type: 3}
-  m_Name: Min Camera Rotation
+  m_Script: {fileID: 11500000, guid: 710ac73d453fcff418d9fb68a06a92d7, type: 3}
+  m_Name: LevelsMain
   m_EditorClassIdentifier: 
-  value: -2
-  description: 
+  id: 
+  levels:
+  - {fileID: 11400000, guid: 85a9ad570d4e1f842b97ae048cdca34d, type: 2}

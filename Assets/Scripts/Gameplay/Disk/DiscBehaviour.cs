@@ -12,7 +12,9 @@ public class DiscBehaviour : MonoBehaviour
         print("Alive)))");
         TryGetComponent(out Rigidbody rigidbodyResult);
         StartCoroutine(AutoDestruction());
-        rigidbodyResult.velocity = transform.forward * discVelocity.Value;
+        Vector3 aux = transform.forward * discVelocity.Value;
+        aux.y = 0;
+        rigidbodyResult.velocity = aux;
         //rigidbodyResult.AddForce(transform.forward * discVelocity.Value, ForceMode.Impulse);
     }
 

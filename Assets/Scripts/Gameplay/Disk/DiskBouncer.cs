@@ -34,7 +34,7 @@ public class DiskBouncer : MonoBehaviour
     {
         var speed = lastFrameVelocity.magnitude;
         var direction = Vector3.Reflect(lastFrameVelocity.normalized, collisionNormal);
-
+        direction.y = 0;
         rb.velocity = direction * Mathf.Max(speed, minVelocity);
     }
 }
