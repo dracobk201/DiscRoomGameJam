@@ -9,8 +9,9 @@ public class GameMaster : MonoBehaviour
     public GameEvent CreateEnemies;
     public GameEvent StartLevel;
     public LevelVariable currentLevel;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private FloatReference actualLevelTime = null;
+        
+    private void Start()
     {
         LoadNewLevel();
     }
@@ -19,6 +20,7 @@ public class GameMaster : MonoBehaviour
     {
         currentLevelIndex++;
         currentLevel.value = levels.levels[currentLevelIndex];
+        actualLevelTime.Value = currentLevel.value.timeToBeat;
         CreateEnemies.Raise();
         StartCoroutine(waitForUI());
     

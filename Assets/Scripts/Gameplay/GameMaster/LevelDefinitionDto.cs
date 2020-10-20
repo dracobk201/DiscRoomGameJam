@@ -7,4 +7,5 @@ public class LevelDefinitionDto : ScriptableObject
 {
     public string id;
     public List<EnemyDto> enemies;
+    public float timeToBeat;
 }
