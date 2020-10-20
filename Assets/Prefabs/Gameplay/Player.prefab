@@ -163,12 +163,14 @@ GameObject:
   - component: {fileID: 4272708755258227889}
   - component: {fileID: 4272708755258227891}
   - component: {fileID: 4272708755258227892}
+  - component: {fileID: 4222488883778846852}
   - component: {fileID: 4272708755258227888}
   - component: {fileID: 4272708755258227890}
   - component: {fileID: 4272708755258227894}
   - component: {fileID: 4272708755258227903}
   - component: {fileID: 4272708755258227893}
   - component: {fileID: 1498456447323036667}
+  - component: {fileID: 3068840219999237450}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -222,6 +224,48 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4222488883778846852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4272708755258227902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b377dcb474d2ec43af72526ebe6ab6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugMode:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: c445a428f3bc9f24998510357f1c9ba5, type: 2}
+  playerAlive:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: f73815a17f0c1084c8b182951703a54d, type: 2}
+  havingDisc:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 3f565755f432c694d85ab4aae0e80079, type: 2}
+  maxPlayerLife:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 084b9e50e6d47eb45bfc9c472fa7a3c5, type: 2}
+  actualPlayerLife:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 3c97c47546756d4428a6a30c6e31cb18, type: 2}
+  damageByEnemy:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: ddb6a06a827bca54ba3cb4c88ee6d087, type: 2}
+  damageByNoDisc:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 62b8b5526f6f3ea409f8d057c7f64f8d, type: 2}
+  playerDamaged: {fileID: 11400000, guid: 0e769867b1f7de84c83af5dbbd9cad90, type: 2}
+  playerDead: {fileID: 11400000, guid: f1d7a23fc02b67843bc4680219fe2dd3, type: 2}
 --- !u!114 &4272708755258227888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,11 +335,15 @@ MonoBehaviour:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: c445a428f3bc9f24998510357f1c9ba5, type: 2}
-  discs: {fileID: 11400000, guid: 5cfbb83aa5d6c5a4d9e8102b6833731d, type: 2}
+  havingDisc:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 3f565755f432c694d85ab4aae0e80079, type: 2}
   remainingDiscs:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: 60066477f9ec810479ac526780fc5714, type: 2}
+  discs: {fileID: 11400000, guid: 5cfbb83aa5d6c5a4d9e8102b6833731d, type: 2}
   playerShot: {fileID: 11400000, guid: 10fb798532309df4aa3a550caf5d2a43, type: 2}
   discInitialPosition: {fileID: 4272708755875716271}
 --- !u!114 &4272708755258227903
@@ -370,6 +418,33 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4272708755258227894}
         m_MethodName: ShootDisc
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3068840219999237450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4272708755258227902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18e8d76b6b3f54f94b92fae64ef79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: b9bbf31bc6e0c8e41834f4eb8a5a174f, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4272708755258227894}
+        m_MethodName: DiscRetrieved
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

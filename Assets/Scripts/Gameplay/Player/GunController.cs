@@ -3,19 +3,26 @@
 public class GunController : MonoBehaviour
 {
     [SerializeField] private BoolReference DebugMode = null;
-    [SerializeField] private DiscsRuntimeSet discs = null;
+    [SerializeField] private BoolReference havingDisc = null;
     [SerializeField] private IntReference remainingDiscs = null;
+    [SerializeField] private DiscsRuntimeSet discs = null;
     [SerializeField] private GameEvent playerShot = null;
     [SerializeField] private Transform discInitialPosition = null;
 
     private void Awake()
     {
-        Cursor.visible = false;    
+        Cursor.visible = false;
+        remainingDiscs.Value = 1;
+        havingDisc.Value = true;
     }
 
     public void ShootDisc()
     {
-        if (remainingDiscs.Value <= 0 && DebugMode.Value == false) return;
+        if (remainingDiscs.Value <= 0 && !DebugMode.Value)
+        {
+            havingDisc.Value = false;
+            return;
+        }
 
         var initialPosition = discInitialPosition.position;
         var initialRotation = discInitialPosition.rotation;
@@ -32,5 +39,11 @@ public class GunController : MonoBehaviour
                 break;
             }
         }
+    }
+
+    public void DiscRetrieved()
+    {
+        remainingDiscs.Value++;
+        havingDisc.Value = true;
     }
 }
