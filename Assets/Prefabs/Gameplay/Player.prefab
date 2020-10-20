@@ -286,6 +286,7 @@ MonoBehaviour:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: 294bddc561462fa489032cde69a8e9a7, type: 2}
+  playerStepSound: {fileID: 11400000, guid: 6e6cbe5d0e8edac47a62b5a2c2e06107, type: 2}
 --- !u!114 &4272708755258227890
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -41,8 +41,8 @@ public class AudioHandler : MonoBehaviour
             case AudioType.None:
                 return;
         }
-
-        source.clip = targetAudio.clip;
+        int randomIndex = (targetAudio.clips.Count > 1) ? Random.Range(0, targetAudio.clips.Count) : 0;
+        source.clip = targetAudio.clips[randomIndex];
         source.loop = targetAudio.canLoop;
         source.Play();
     }
