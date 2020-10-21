@@ -18,11 +18,7 @@ public class GunController : MonoBehaviour
 
     public void ShootDisc()
     {
-        if (remainingDiscs.Value <= 0 && !DebugMode.Value)
-        {
-            havingDisc.Value = false;
-            return;
-        }
+        if (remainingDiscs.Value <= 0 && !DebugMode.Value) return;
 
         var initialPosition = discInitialPosition.position;
         var initialRotation = discInitialPosition.rotation;
@@ -33,8 +29,10 @@ public class GunController : MonoBehaviour
             {
                 discs.Items[i].transform.localPosition = initialPosition;
                 discs.Items[i].transform.localRotation = initialRotation;
-                //discs.Items[i].SetActive(true);
+                discs.Items[i].SetActive(true);
                 remainingDiscs.Value--;
+                if (remainingDiscs.Value <= 0)
+                    havingDisc.Value = false;
                 playerShot.Raise();
                 break;
             }

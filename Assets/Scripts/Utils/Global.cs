@@ -4,6 +4,7 @@
     public const string PlayerTag = "Player";
     public const string EnemyTag = "Enemy";
     public const string PlayerDiscTag = "PlayerDisc";
+    public const string DiscRetrieverTag = "DiscRetriever";
     public const string GoalTag = "Finish";
     public const string CameraMinimapTag = "MinimapCamera";
     #endregion
