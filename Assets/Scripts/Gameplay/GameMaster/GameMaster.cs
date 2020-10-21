@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameMaster : MonoBehaviour
@@ -22,14 +21,12 @@ public class GameMaster : MonoBehaviour
         currentLevel.value = levels.levels[currentLevelIndex];
         actualLevelTime.Value = currentLevel.value.timeToBeat;
         CreateEnemies.Raise();
-        StartCoroutine(waitForUI());
-    
+        StartCoroutine(WaitForUI());
     }
 
-    private IEnumerator waitForUI()
+    private IEnumerator WaitForUI()
     {
         yield return new WaitForSeconds(2);
         StartLevel.Raise();
-
     }
 }

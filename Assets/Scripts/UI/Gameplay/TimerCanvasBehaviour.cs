@@ -8,21 +8,21 @@ public class TimerCanvasBehaviour : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText = null;
     [SerializeField] private TextMeshProUGUI enemyRemainingText = null;
 
-    private float timeForWait;
+    private float _timeForWait;
 
     private void Start()
     {
-        timeForWait = 1;
+        _timeForWait = 1;
         SetupLabels();
     }
 
     private void Update()
     {
-        timeForWait -= Time.deltaTime;
-        if (timeForWait <= 0)
+        _timeForWait -= Time.deltaTime;
+        if (_timeForWait <= 0)
         {
             SetupLabels();
-            timeForWait = 1;
+            _timeForWait = 1;
         }
     }
 

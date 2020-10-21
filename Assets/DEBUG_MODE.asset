@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205e7c91b07f6204981b85a521b60d63, type: 3}
   m_Name: DEBUG_MODE
   m_EditorClassIdentifier: 
-  value: 1
+  value: 0
   description: 
