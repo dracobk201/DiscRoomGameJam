@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DiskRetriever : MonoBehaviour
 {
@@ -9,11 +7,7 @@ public class DiskRetriever : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         string targetTag = other.tag;
-        Debug.Log("targetTag" + targetTag);
         if (targetTag.Equals(Global.PlayerDiscTag))
-        {
             diskRetrieved.Raise();
-            Destroy(other.gameObject);
-        }
     }
 }

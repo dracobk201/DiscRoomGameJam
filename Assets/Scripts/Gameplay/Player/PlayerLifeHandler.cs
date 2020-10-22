@@ -12,23 +12,37 @@ public class PlayerLifeHandler : MonoBehaviour
     [SerializeField] private GameEvent playerDamaged = null;
     [SerializeField] private GameEvent playerDead = null;
 
-    private float timeForWait;
+    private bool _havingDiscLastTime;
+    private float _timeForWait;
 
     private void Start()
     {
-        timeForWait = 1;
+        _timeForWait = 1;
         playerAlive.Value = true;
+        _havingDiscLastTime = true;
         actualPlayerLife.Value = maxPlayerLife.Value;
     }
 
     private void Update()
     {
-        timeForWait -= Time.deltaTime;
-        if (timeForWait <= 0)
+        if (DebugMode.Value) return;
+
+        _timeForWait -= Time.deltaTime;
+        if (_timeForWait <= 0)
         {
-            timeForWait = 1;
-            if (!havingDisc.Value && !DebugMode.Value)
-                DamageReceived(damageByNoDisc.Value);
+            _timeForWait = 1;
+            if (!havingDisc.Value)
+            {
+                if (_havingDiscLastTime)
+                {
+                    _havingDiscLastTime = false;
+                    return;
+                }
+                else
+                    DamageReceived(damageByNoDisc.Value);
+            }
+            else
+                _havingDiscLastTime = true;
         }
     }
 

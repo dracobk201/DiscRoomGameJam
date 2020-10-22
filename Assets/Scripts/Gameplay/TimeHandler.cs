@@ -9,7 +9,8 @@ public class TimeHandler : MonoBehaviour
 
     private void Start()
     {
-        SetupTimer();
+        _timesUp = true;
+        actualTimeProgress.Value = actualLevelTime.Value;
     }
 
     private void Update()

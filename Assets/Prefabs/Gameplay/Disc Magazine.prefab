@@ -48,5 +48,5 @@ MonoBehaviour:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: fc62747033249c64da9a80935af65873, type: 2}
-  discPrefab: {fileID: 3747432133381290499, guid: 44de6ac2847255349bc4001b5c00512a,
+  discPrefab: {fileID: 3747432133381290499, guid: 5a827c22f5f5b3844804e8be0401859b,
     type: 3}
