@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205e7c91b07f6204981b85a521b60d63, type: 3}
-  m_Name: DEBUG_MODE
+  m_Script: {fileID: 11500000, guid: 6bd9c1440ca7a734f9f3f9c5e77bcf47, type: 3}
+  m_Name: Next Warp Location
   m_EditorClassIdentifier: 
-  value: 1
+  value: {x: 0, y: 0, z: 0}
   description: 
