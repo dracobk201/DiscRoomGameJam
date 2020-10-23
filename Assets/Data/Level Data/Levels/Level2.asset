@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205e7c91b07f6204981b85a521b60d63, type: 3}
-  m_Name: DEBUG_MODE
+  m_Script: {fileID: 11500000, guid: 48afaf018eada9d4ab264e07ac0c036a, type: 3}
+  m_Name: Level2
   m_EditorClassIdentifier: 
-  value: 1
-  description: 
+  id: 2
+  message: "As usual, \nkill EVERYTHING!"
+  levelPrefab: {fileID: 4930188986513738548, guid: 45ba4002a127bd041855365bafae50a2,
+    type: 3}
+  timeToBeat: 45

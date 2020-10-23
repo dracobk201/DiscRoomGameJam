@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.363}
   m_AnchorMax: {x: 1, y: 0.85560244}
-  m_AnchoredPosition: {x: 0, y: -0.7669525}
+  m_AnchoredPosition: {x: 0, y: -0.7669678}
   m_SizeDelta: {x: 0, y: 1.5338745}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1559689697398986376
@@ -309,6 +309,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866609013413324998}
+  - component: {fileID: 4441196403347378933}
+  - component: {fileID: 228930884104613543}
   - component: {fileID: 3543221880280322526}
   m_Layer: 5
   m_Name: Initial Info
@@ -337,6 +339,55 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4441196403347378933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2557687097847860255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a4c944b79909d45b66082cf7a9cf3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelTitle:
+    useVariable: 1
+    constantValue: 
+    variable: {fileID: 11400000, guid: 157cf2d6f5ffcc54d85259d73f74b24a, type: 2}
+  levelMessage:
+    useVariable: 1
+    constantValue: 
+    variable: {fileID: 11400000, guid: fa0da0ca1ddc47148a68b4cd6d3d6c97, type: 2}
+  levelTitleText: {fileID: 5381340290098719951}
+  levelMessageText: {fileID: 3593412556422491319}
+--- !u!114 &228930884104613543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2557687097847860255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18e8d76b6b3f54f94b92fae64ef79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 4ebb923367437f549916c5c899e419f0, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4441196403347378933}
+        m_MethodName: SetupUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3543221880280322526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,7 +449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.83216435, y: 0.016576178}
   m_AnchorMax: {x: 0.986612, y: 0.21900001}
-  m_AnchoredPosition: {x: 0.090026855, y: -0.19824219}
+  m_AnchoredPosition: {x: 0.09008789, y: -0.19824219}
   m_SizeDelta: {x: -0.18014526, y: -0.39648438}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3703358863836994374
@@ -646,7 +697,7 @@ GameObject:
   - component: {fileID: 2844231215665788263}
   - component: {fileID: 3593412556422491319}
   m_Layer: 5
-  m_Name: InfoText
+  m_Name: Level Message Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -952,7 +1003,7 @@ GameObject:
   - component: {fileID: 5984507948676435272}
   - component: {fileID: 5381340290098719951}
   m_Layer: 5
-  m_Name: Leveltext
+  m_Name: Level Title Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,7 +1025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.68750256}
   m_AnchorMax: {x: 1, y: 0.95800006}
-  m_AnchoredPosition: {x: 0.13244629, y: 2.2077942}
+  m_AnchoredPosition: {x: 0.13232422, y: 2.2078247}
   m_SizeDelta: {x: -0.7380371, y: -1.5845184}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5984507948676435272
@@ -1168,7 +1219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7949061054990726737
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1572,7 +1623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7783180282606463651
 RectTransform:
   m_ObjectHideFlags: 0
