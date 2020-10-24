@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 774a7fc639932af48b74090665adeb09, type: 3}
-  m_Name: Cage
+  m_Name: Barrel 1
   m_EditorClassIdentifier: 
   scaleRange: 0.1
-  rotationRange: 45
+  rotationRange: 180
   positionRange: {x: 0.8, y: 0, z: 0.4}
   propName: Barrel
   randomizable: 1
   propType: 0
-  prefab: {fileID: 125420, guid: dc0812e74328c2b49bd11a062b2a935e, type: 3}
+  prefab: {fileID: 1547116696582102, guid: f750d5f061e724f4c827ab6b376e2550, type: 3}
