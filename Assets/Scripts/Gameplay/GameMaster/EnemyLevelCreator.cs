@@ -8,12 +8,15 @@ public class EnemyLevelCreator : MonoBehaviour
     [SerializeField] private float radius;
     [SerializeField] private LevelVariable currentLevel;
 
+
     public void CreateEnemies()
     {
+        /*
         foreach (var item in currentLevel.value.enemies)
         {
             Instantiate(item.prefab, positinToInstantiate(), Quaternion.identity);
         }
+        */
     }
 
     public Vector3 positinToInstantiate()
