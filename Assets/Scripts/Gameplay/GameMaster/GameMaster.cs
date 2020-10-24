@@ -17,7 +17,7 @@ public class GameMaster : MonoBehaviour
     private int _currentLevelLocationIndex = 0;
     private GameObject _currentLevelPrefab = null;
     private GameObject _lastLevelPrefab = null;
-    private LevelVariable _currentLevel;
+    [SerializeField] private LevelVariable _currentLevel;
 
     private void Start()
     {
