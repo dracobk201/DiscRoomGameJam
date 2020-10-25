@@ -7,6 +7,8 @@ using UnityEngine;
 public class LevelInstantiator : MonoBehaviour
 {
     [SerializeField] private List<InstatiationPoint> instatiationPoints = null;
+    [SerializeField] private EnemyRuntimeSet enemies = null;
+    [SerializeField] private GameEvent enemyCreated = null;
     [SerializeField] private GameEvent cleanProps = null;
     [SerializeField] private GameEvent loadLevelCompleted = null;
     [SerializeField] private PropsSO props = null;
@@ -60,6 +62,24 @@ public class LevelInstantiator : MonoBehaviour
             if (TryGetComponent(out InstatiationPoint ip))
             {
                 instatiationPoints.Add(ip);
+            }
+        }
+    }
+
+    private void InstantiateEnemy(Transform enemyLocation)
+    {
+        var initialPosition = enemyLocation.position;
+        var initialRotation = enemyLocation.rotation;
+
+        for (int i = 0; i < enemies.Items.Count; i++)
+        {
+            if (!enemies.Items[i].activeInHierarchy)
+            {
+                enemies.Items[i].transform.localPosition = initialPosition;
+                enemies.Items[i].transform.localRotation = initialRotation;
+                enemies.Items[i].SetActive(true);
+                enemyCreated.Raise();
+                break;
             }
         }
     }

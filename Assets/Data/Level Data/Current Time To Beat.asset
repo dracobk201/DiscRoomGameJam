@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0224c4e955acd93489bd88e4aefbc935, type: 3}
   m_Name: Current Time To Beat
   m_EditorClassIdentifier: 
-  value: 90
+  value: 50
   description: 

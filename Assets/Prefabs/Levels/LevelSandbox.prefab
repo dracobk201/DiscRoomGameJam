@@ -7630,6 +7630,8 @@ MonoBehaviour:
   - {fileID: 436722799}
   - {fileID: 146247442}
   - {fileID: 1113378299}
+  enemies: {fileID: 11400000, guid: b30f13264983d8e42b76dc9b8cb7806c, type: 2}
+  enemyCreated: {fileID: 11400000, guid: f1ccb65739439304b8f867fd93348608, type: 2}
   cleanProps: {fileID: 11400000, guid: dd82388e272c7104cb205ab301b6d2a7, type: 2}
   loadLevelCompleted: {fileID: 11400000, guid: ee56a8950e51c8741bd17750c587e673, type: 2}
   props: {fileID: 11400000, guid: 313517e0f2aa7c84c8bdf9daa62f412a, type: 2}

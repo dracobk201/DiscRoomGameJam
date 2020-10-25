@@ -15,9 +15,6 @@ MonoBehaviour:
   audioName: Footstep
   clips:
   - {fileID: 8300000, guid: 0c0547a4ec378c545a5f02d685c22ab0, type: 3}
-  - {fileID: 8300000, guid: 979b5a212415da144ae67411fb01ccd9, type: 3}
-  - {fileID: 8300000, guid: 175f50090d2dcfd45b7dee38c52adc38, type: 3}
-  - {fileID: 8300000, guid: 0b338b81766e69545abcc7347a906001, type: 3}
-  - {fileID: 8300000, guid: 71524b318cfd42940b5a6c76ec1bfd91, type: 3}
+  - {fileID: 8300000, guid: 0c0547a4ec378c545a5f02d685c22ab0, type: 3}
   type: 2
   canLoop: 0
