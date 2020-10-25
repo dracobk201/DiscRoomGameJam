@@ -8,6 +8,7 @@ public class LevelInstantiator : MonoBehaviour
 {
     [SerializeField] private List<InstatiationPoint> instatiationPoints = null;
     [SerializeField] private GameEvent cleanProps = null;
+    [SerializeField] private GameEvent loadLevelCompleted = null;
     [SerializeField] private PropsSO props = null;
 
     private void Update() {
@@ -16,13 +17,14 @@ public class LevelInstantiator : MonoBehaviour
         }
     }
 
-    [ContextMenu("Clean")]
+    [ContextMenu("StartInstantiating")]
     public void StartInstantiating()
     {
         cleanProps.Raise();
         var numberOfAssets = Random.Range(0, props.props.Count);
         var propsSorted = props.props.OrderBy(a => GUID.Generate()).ToList();
         instantiateProps(propsSorted.GetRange(0, numberOfAssets));
+        loadLevelCompleted.Raise();
     }
 
     public void instantiateProps(List<PropSO> props)
