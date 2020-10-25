@@ -159,6 +159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b58a2fc0677b2534fa283862d0264526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyMovementOnNavMesh: {fileID: 0}
+  navMeshAgent: {fileID: 0}
   ExitStringConstant: {fileID: 11400000, guid: b7fb620971b957741938eff78ef65ae1, type: 2}
   MinIdleTime: {fileID: 11400000, guid: 5aa3e07a5b7f4e0478e29c3e191eb2fe, type: 2}
   MaxIdleTime: {fileID: 11400000, guid: 7ee62102e54217f41bfd8d5f38bb361e, type: 2}

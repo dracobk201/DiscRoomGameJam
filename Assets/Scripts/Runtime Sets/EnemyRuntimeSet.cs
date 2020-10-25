@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "Runtime Set/Enemies")]
-public class EnemyRuntimeSet : RuntimeSet<Enemy>
+public class EnemyRuntimeSet : RuntimeSet<GameObject>
 { }

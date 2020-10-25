@@ -6,8 +6,10 @@ public class GameMaster : MonoBehaviour
     [SerializeField] private LevelsDto levels = null;
     [SerializeField] private Transform[] levelLocations = null;
     [SerializeField] private Vector3Reference nextWarpLocation = null;
+    [SerializeField] private EnemyRuntimeSet enemies = null;
     [SerializeField] private GameEvent startLevel = null;
     [SerializeField] private GameEvent teleportPlayer = null;
+    [SerializeField] private GameEvent enemyCreated = null;
     [Space(10)]
     [SerializeField] private StringReference levelTitle = null;
     [SerializeField] private StringReference levelMessage = null;
@@ -64,5 +66,23 @@ public class GameMaster : MonoBehaviour
         Destroy(_lastLevelPrefab);
         SetupValues();
         LoadLevel();
+    }
+
+    private void InstantiateEnemy(Transform enemyLocation)
+    {
+        var initialPosition = enemyLocation.position;
+        var initialRotation = enemyLocation.rotation;
+
+        for (int i = 0; i < enemies.Items.Count; i++)
+        {
+            if (!enemies.Items[i].activeInHierarchy)
+            {
+                enemies.Items[i].transform.localPosition = initialPosition;
+                enemies.Items[i].transform.localRotation = initialRotation;
+                enemies.Items[i].SetActive(true);
+                enemyCreated.Raise();
+                break;
+            }
+        }
     }
 }

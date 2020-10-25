@@ -6,11 +6,11 @@ public class Enemy : MonoBehaviour
 
     private void OnEnable()
     {
-        enemies.Add(this);
+        enemies.Add(gameObject);
     }
 
     private void OnDisable()
     {
-        enemies.Remove(this);
+        enemies.Remove(gameObject);
     }
 }
