@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae05f0e67a561cc4bb42aa9ae9c82102, type: 3}
-  m_Name: BlobDefinition
+  m_Script: {fileID: 11500000, guid: 0a9d61a6006a0b643bb5b844f6349de6, type: 3}
+  m_Name: CurrentLevel
   m_EditorClassIdentifier: 
-  enemyName: BLOB
-  weight: 1
-  prefab: {fileID: 5955234386832380930, guid: e669e46ee8671ce48a30c8b03ded5b5d, type: 3}
+  value: 0
+  description: 

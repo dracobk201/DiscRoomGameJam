@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnemyDto : ScriptableObject
 {
     public string enemyName;
+    public int weight;
     public GameObject prefab;
     //TODO definir los estados de los enmigos
 }
