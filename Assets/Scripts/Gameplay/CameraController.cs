@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private FloatReference maxCameraRotation = null;
     [SerializeField] private FloatReference horizontalCameraSensitivity = null;
     [SerializeField] private FloatReference verticalCameraSensitivity = null;
-    [SerializeField] private Camera playerCamera = null;
+    [SerializeField] private GameObject playerCamera = null;
     private Rigidbody _playerRigidbody;
     private float rotAroundX, rotAroundY;
 

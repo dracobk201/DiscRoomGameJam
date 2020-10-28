@@ -8,6 +8,7 @@ TagManager:
   - PlayerDisc
   - MinimapCamera
   - DiscRetriever
+  - Asteroid
   layers:
   - Default
   - TransparentFX

@@ -5,14 +5,13 @@ using UnityEngine;
 public class Shake : MonoBehaviour
 {
     public float shake_speed;
-    public float shake_intensity;
     public Vector3 originPosition;
  
     public bool isShaking = true;
  
     void Start()
     {
-        originPosition = transform.position;
+        originPosition = transform.localPosition;
     }
  
     void Update()
@@ -20,7 +19,7 @@ public class Shake : MonoBehaviour
         if (isShaking)
         {
             float step = shake_speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, originPosition + Random.insideUnitSphere, step);
+            transform.localPosition = Vector3.MoveTowards(transform.localPosition, originPosition + Random.insideUnitSphere, step);
         }
     }
 }
