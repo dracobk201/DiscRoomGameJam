@@ -11,7 +11,7 @@ public class EnemyCameraFacingBillboard : MonoBehaviour
             Debug.LogError("Main camera not found!!!");
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         if (_camera != null)
             transform.LookAt(transform.position + _camera.transform.rotation * Vector3.forward, _camera.transform.rotation * Vector3.up);

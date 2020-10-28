@@ -1,4 +1,6 @@
-﻿public static class Global
+﻿using UnityEngine;
+
+public static class Global
 {
     #region Tags
     public const string PlayerTag = "Player";
@@ -39,8 +41,8 @@
 
     public static string ReturnTimeToString(float time)
     {
-        var minutes = UnityEngine.Mathf.FloorToInt(time / 60f);
-        var seconds = UnityEngine.Mathf.RoundToInt(time % 60f);
+        var minutes = Mathf.FloorToInt(time / 60f);
+        var seconds = Mathf.RoundToInt(time % 60f);
 
         if (seconds == 60)
         {
@@ -54,6 +56,14 @@
             minutes = 0;
 
         return minutes.ToString("00") + ":" + seconds.ToString("00");
+    }
+
+    public static float Clamp0360(float eulerAngles)
+    {
+        float result = eulerAngles - Mathf.CeilToInt(eulerAngles / 360f) * 360f;
+        if (result < 0)
+            result += 360f;
+        return result;
     }
 
     #endregion
