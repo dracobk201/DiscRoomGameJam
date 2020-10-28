@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5017533566933886561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.28, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 5955234386832380935}
   m_RootOrder: 1
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2784232218003311239, guid: 295060944c066684abb74c03b2ff187b,
+  m_Sprite: {fileID: -8013054964349667181, guid: 9220f491a177cd1429a3cd1e2b4a800c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -94,7 +94,7 @@ Animator:
   m_GameObject: {fileID: 5017533566933886561}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c618ca32e543395429c2a3efb0f2079b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 572a888652863a84caf350ef52e52245, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 5955234386832380932}
   - component: {fileID: 5955234386832380933}
   m_Layer: 0
-  m_Name: Blob
+  m_Name: Religious Woman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
