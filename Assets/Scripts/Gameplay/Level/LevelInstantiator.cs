@@ -65,22 +65,4 @@ public class LevelInstantiator : MonoBehaviour
             }
         }
     }
-
-    private void InstantiateEnemy(Transform enemyLocation)
-    {
-        var initialPosition = enemyLocation.position;
-        var initialRotation = enemyLocation.rotation;
-
-        for (int i = 0; i < enemies.Items.Count; i++)
-        {
-            if (!enemies.Items[i].activeInHierarchy)
-            {
-                enemies.Items[i].transform.localPosition = initialPosition;
-                enemies.Items[i].transform.localRotation = initialRotation;
-                enemies.Items[i].SetActive(true);
-                enemyCreated.Raise();
-                break;
-            }
-        }
-    }
 }
