@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: abd29756b9a2c754ea4bd32520bb91c1,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -107,7 +107,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 1
+    agentRadius: 0.3
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -115,13 +115,13 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.33333334
+    cellSize: 0.1
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 55ae11a17efa0aa4f948d372c2ca78ab, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 500a2316b3478c049b61dcc5fcf08c39, type: 2}
 --- !u!1 &48132202
 GameObject:
   m_ObjectHideFlags: 0
@@ -5416,7 +5416,7 @@ PrefabInstance:
     - target: {fileID: 6010983493810321958, guid: 63609e1c47c74de40bf46b032653fe42,
         type: 3}
       propertyPath: radius
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6010983493810321958, guid: 63609e1c47c74de40bf46b032653fe42,
         type: 3}
@@ -5430,6 +5430,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: a023ca7b31afb3340b68ce24d1a6d76c,
         type: 2}
+    - target: {fileID: 6010983493810321958, guid: 63609e1c47c74de40bf46b032653fe42,
+        type: 3}
+      propertyPath: totalWeight
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6853800980023191661, guid: 63609e1c47c74de40bf46b032653fe42,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15927,7 +15932,7 @@ PrefabInstance:
     - target: {fileID: 3936682237250522657, guid: 11b5d77426b71d04db8d98c99b38d59c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -51.80005
+      value: -51.80011
       objectReference: {fileID: 0}
     - target: {fileID: 6785977945867870966, guid: 11b5d77426b71d04db8d98c99b38d59c,
         type: 3}
@@ -16247,6 +16252,7 @@ MonoBehaviour:
   currentLevel: {fileID: 0}
   enemies: {fileID: 0}
   totalWeight: 0
+  navMeshAgent: {fileID: 0}
 --- !u!1001 &562081813341043252
 PrefabInstance:
   m_ObjectHideFlags: 0
