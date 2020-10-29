@@ -8,6 +8,7 @@ public class EnemyLevelCreator : MonoBehaviour
 {
     [SerializeField] private float radius;
     [SerializeField] private IntVariable currentLevel;
+    [SerializeField] private GameEvent enemyCreated;
     [SerializeField] private EnemiesSO enemies;
     [SerializeField] private int totalWeight = 1;
 
@@ -30,6 +31,7 @@ public class EnemyLevelCreator : MonoBehaviour
                     repeat = true;
                     i = 9999;
                     Instantiate(item.prefab, positinToInstantiate(), Quaternion.identity);
+                    enemyCreated.Raise();
                     Debug.Log("Instantiated");
                 }
             }
