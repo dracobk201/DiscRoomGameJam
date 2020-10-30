@@ -8,12 +8,14 @@ public class EnemyLevelCreator : MonoBehaviour
 {
     [SerializeField] private float radius;
     [SerializeField] private IntVariable currentLevel;
+    [SerializeField] private IntVariable numberOfEnemies;
     [SerializeField] private GameEvent enemyCreated;
     [SerializeField] private EnemiesSO enemies;
     [SerializeField] private int totalWeight = 1;
 
     public void CreateEnemies()
     {
+        numberOfEnemies.value = 0;
         currentLevel.value++;
         totalWeight += currentLevel.value;
         int addedWeight = totalWeight;

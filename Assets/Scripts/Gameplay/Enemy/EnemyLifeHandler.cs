@@ -11,6 +11,7 @@ public class EnemyLifeHandler : MonoBehaviour
     [SerializeField] private GameObject spriteHolder = null;
 
     private float _actualEnemyLife;
+    private bool _death = false;
 
     private void OnEnable()
     {
@@ -26,21 +27,25 @@ public class EnemyLifeHandler : MonoBehaviour
 
     private void DamageReceived(float damage)
     {
-        _actualEnemyLife -= damage;
-        if (_actualEnemyLife <= 0)
+        if (_death == false)
         {
-            enemyDead.Raise();
-            StartCoroutine(LeftToDEath());
+            _actualEnemyLife -= damage;
+            if (_actualEnemyLife <= 0)
+            {
+                _death = true;
+                enemyDead.Raise();
+                StartCoroutine(LeftToDEath());
+            }
+            else
+                enemyDamaged.Raise();
         }
-        else
-            enemyDamaged.Raise();
     }
 
     private IEnumerator LeftToDEath()
     {
         particles.gameObject.SetActive(true);
         spriteHolder.SetActive(false);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
         particles.gameObject.SetActive(false);
         spriteHolder.SetActive(true);
