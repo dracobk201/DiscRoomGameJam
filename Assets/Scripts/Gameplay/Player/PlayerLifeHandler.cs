@@ -46,14 +46,23 @@ public class PlayerLifeHandler : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        foreach (var contact in collision.contacts)
+    /*
+        private void OnCollisionEnter(Collision collision)
         {
-            if (contact.otherCollider.CompareTag(Global.EnemyTag))
-                DamageReceived(damageByEnemy.Value);
+            foreach (var contact in collision.contacts)
+            {
+                if (contact.otherCollider.CompareTag(Global.EnemyTag))
+                    DamageReceived(damageByEnemy.Value);
+            }
         }
+        */
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag(Global.EnemyTag))
+            DamageReceived(damageByEnemy.Value);
     }
+
 
     private void DamageReceived(float damage)
     {
