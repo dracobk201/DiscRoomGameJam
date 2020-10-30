@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 3510685150065372214}
   - component: {fileID: 1127337430569782269}
   - component: {fileID: 7367002393272466268}
+  - component: {fileID: 7286574814543659635}
   m_Layer: 0
   m_Name: SFX
   m_TagString: Untagged
@@ -501,6 +502,34 @@ MonoBehaviour:
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: 7cf7aedae6c9be44280a2fddc9c443f9,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Audio, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7286574814543659635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207243758612224157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18e8d76b6b3f54f94b92fae64ef79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 0e769867b1f7de84c83af5dbbd9cad90, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6563887454675994691}
+        m_MethodName: PlayAudio
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: c7c60dae8d7024d43904188754c4d6c2,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: Audio, Assembly-CSharp
           m_IntArgument: 0
