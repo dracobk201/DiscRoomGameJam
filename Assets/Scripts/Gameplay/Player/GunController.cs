@@ -3,11 +3,13 @@
 public class GunController : MonoBehaviour
 {
     [SerializeField] private BoolReference DebugMode = null;
+    [SerializeField] private BoolReference gunCollected = null;
     [SerializeField] private Animator gunAnimator = null;
     [SerializeField] private BoolReference havingDisc = null;
     [SerializeField] private IntReference remainingDiscs = null;
     [SerializeField] private DiscsRuntimeSet discs = null;
     [SerializeField] private GameEvent playerShot = null;
+    [SerializeField] private GameObject gunGameObject = null;
     [SerializeField] private Transform discInitialPosition = null;
 
     private void Awake()
@@ -18,9 +20,17 @@ public class GunController : MonoBehaviour
         gunAnimator.SetBool("havingDisc", true);
     }
 
+    private void Update()
+    {
+        if (gunCollected.Value && !DebugMode.Value)
+            gunGameObject.SetActive(true);
+        else
+            gunGameObject.SetActive(false);
+    }
+
     public void ShootDisc()
     {
-        if (remainingDiscs.Value <= 0 && !DebugMode.Value) return;
+        if (remainingDiscs.Value <= 0 && gunCollected.Value && !DebugMode.Value) return;
         gunAnimator.SetTrigger("shoot");
         Invoke(nameof(ReleaseDisc), 0.6f);
     }
@@ -54,5 +64,14 @@ public class GunController : MonoBehaviour
         remainingDiscs.Value++;
         gunAnimator.SetBool("havingDisc", true);
         havingDisc.Value = true;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        foreach (var contact in collision.contacts)
+        {
+            if (contact.otherCollider.CompareTag(Global.DiscGunTag))
+                gunCollected.Value = true;
+        }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - MinimapCamera
   - DiscRetriever
   - Asteroid
+  - DiscGun
   layers:
   - Default
   - TransparentFX

@@ -420,6 +420,10 @@ MonoBehaviour:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: c445a428f3bc9f24998510357f1c9ba5, type: 2}
+  gunCollected:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: ac9ecc22aad49554b8772ca31d54f6e3, type: 2}
   gunAnimator: {fileID: 8141055206097663016}
   havingDisc:
     useVariable: 1
@@ -431,6 +435,7 @@ MonoBehaviour:
     variable: {fileID: 11400000, guid: 60066477f9ec810479ac526780fc5714, type: 2}
   discs: {fileID: 11400000, guid: 5cfbb83aa5d6c5a4d9e8102b6833731d, type: 2}
   playerShot: {fileID: 11400000, guid: 10fb798532309df4aa3a550caf5d2a43, type: 2}
+  gunGameObject: {fileID: 8300468249282543950}
   discInitialPosition: {fileID: 4272708755875716271}
 --- !u!114 &4272708755258227903
 MonoBehaviour:
