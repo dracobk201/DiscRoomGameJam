@@ -65,6 +65,8 @@ MonoBehaviour:
   downButtonEvent: {fileID: 11400000, guid: a6cba56b33fcb9040b302d1bd11f3544, type: 2}
   anyDirectionalAxisEvent: {fileID: 11400000, guid: 69185b2d82ab738479176f8e5278599a,
     type: 2}
+  noDirectionalAxisEvent: {fileID: 11400000, guid: 8866470e1a959a44dba68d7e5eb420ad,
+    type: 2}
   cameraAxis:
     useVariable: 1
     constantValue: {x: 0, y: 0}

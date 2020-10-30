@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: f65213f5090e49f44a3d40456c1a0784
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5898573474716835750
+    second: arma v2_0
+  - first:
+      213: -8924215673091996309
+    second: arma v2_1
+  - first:
+      213: 4398718648011405043
+    second: arma v2_2
+  - first:
+      213: 840753451604834151
+    second: arma v2_3
+  - first:
+      213: -9019614052176104963
+    second: arma v2_4
+  - first:
+      213: 809445497236743864
+    second: arma v2_5
+  - first:
+      213: 7188309453546848673
+    second: arma v2_6
+  - first:
+      213: 4644663236528523526
+    second: arma v2_7
+  - first:
+      213: -6880646578802646063
+    second: arma v2_8
+  - first:
+      213: -9070581664560629091
+    second: arma v2_9
+  - first:
+      213: 267810633939032309
+    second: arma v2_10
+  - first:
+      213: 781581015598152627
+    second: arma v2_11
+  - first:
+      213: -477569270357417633
+    second: arma v2_12
+  - first:
+      213: 2355793434325686429
+    second: arma v2_13
+  - first:
+      213: 3163074400338668424
+    second: arma v2_14
+  - first:
+      213: -4877246991450407955
+    second: arma v2_15
+  - first:
+      213: -6466463380638568907
+    second: arma v2_16
+  - first:
+      213: -6149232235449726932
+    second: arma v2_17
+  - first:
+      213: -6368654912469890073
+    second: arma v2_18
+  - first:
+      213: -6798925210007207993
+    second: arma v2_19
+  - first:
+      213: 506668554714007765
+    second: arma v2_20
+  - first:
+      213: -6385353455770344141
+    second: arma v2_21
+  - first:
+      213: 641262246936477049
+    second: arma v2_22
+  - first:
+      213: 2647983705051928170
+    second: arma v2_23
+  - first:
+      213: -6742975841111507645
+    second: arma v2_24
+  - first:
+      213: 3397214313771066145
+    second: arma v2_25
+  - first:
+      213: -8724614842544527892
+    second: arma v2_26
+  - first:
+      213: -1216638016703714152
+    second: arma v2_27
+  - first:
+      213: 233844574007273808
+    second: arma v2_28
+  - first:
+      213: -2565445713593020578
+    second: arma v2_29
+  - first:
+      213: -6191865592316703726
+    second: arma v2_30
+  - first:
+      213: -2907688469200510794
+    second: arma v2_31
+  - first:
+      213: -1312068932556429041
+    second: arma v2_32
+  - first:
+      213: -8931589987006157303
+    second: arma v2_33
+  - first:
+      213: 4229386147836720728
+    second: arma v2_34
+  - first:
+      213: -264886227051711711
+    second: arma v2_35
+  - first:
+      213: -7781175437086110601
+    second: arma v2_36
+  - first:
+      213: 8795601544660917250
+    second: arma v2_37
+  - first:
+      213: 2746754406302371432
+    second: arma v2_38
+  - first:
+      213: 3649589637739475906
+    second: arma v2_39
+  - first:
+      213: -2802432593182494007
+    second: arma v2_40
+  - first:
+      213: 1349968980891371301
+    second: arma v2_41
+  - first:
+      213: -5398689561674486906
+    second: arma v2_42
+  - first:
+      213: 1529182146112883825
+    second: arma v2_43
+  - first:
+      213: -4468753924495184527
+    second: arma v2_44
+  - first:
+      213: 1598409350314439108
+    second: arma v2_45
+  - first:
+      213: 4365096722082450129
+    second: arma v2_46
+  - first:
+      213: 222841137628951955
+    second: arma v2_47
+  - first:
+      213: 1673298678754311558
+    second: arma v2_48
+  - first:
+      213: 2009534553268022117
+    second: arma v2_49
+  - first:
+      213: 8229455133484643032
+    second: arma v2_50
+  - first:
+      213: -8088459526423394706
+    second: arma v2_51
+  - first:
+      213: 3472921480427951011
+    second: arma v2_52
+  - first:
+      213: 5519640773697048885
+    second: arma v2_53
+  - first:
+      213: -3011630230163595467
+    second: arma v2_54
+  - first:
+      213: 5906149374713033668
+    second: arma v2_55
+  - first:
+      213: -574642568694456778
+    second: arma v2_56
+  - first:
+      213: 5595336749235933556
+    second: arma v2_57
+  - first:
+      213: 4715283098470297827
+    second: arma v2_58
+  - first:
+      213: 5264628280145218053
+    second: arma v2_59
+  - first:
+      213: -3921423432908633806
+    second: arma v2_60
+  - first:
+      213: -2992171471832293003
+    second: arma v2_61
+  - first:
+      213: 5093944474517567808
+    second: arma v2_62
+  - first:
+      213: 2442778041114926119
+    second: arma v2_63
+  - first:
+      213: 6687305969701355146
+    second: arma v2_64
+  - first:
+      213: -8677203608132998061
+    second: arma v2_65
+  - first:
+      213: 1659361406197999656
+    second: arma v2_66
+  - first:
+      213: -2798724406993380482
+    second: arma v2_67
+  - first:
+      213: -2327030922419787247
+    second: arma v2_68
+  - first:
+      213: 4191691030236768715
+    second: arma v2_69
+  - first:
+      213: -8020757634700282319
+    second: arma v2_70
+  - first:
+      213: 4117448408047439894
+    second: arma v2_71
+  - first:
+      213: -3448242223078699398
+    second: arma v2_72
+  - first:
+      213: 2053914521877374277
+    second: arma v2_73
+  - first:
+      213: -4699078023350889326
+    second: arma v2_74
+  - first:
+      213: 6699529620260838159
+    second: arma v2_75
+  - first:
+      213: 6398887497754548009
+    second: arma v2_76
+  - first:
+      213: -3872709432637864957
+    second: arma v2_77
+  - first:
+      213: 7579314734198150217
+    second: arma v2_78
+  - first:
+      213: 7121830230452177927
+    second: arma v2_79
+  - first:
+      213: -3403639732311701982
+    second: arma v2_80
+  - first:
+      213: -1191785422531073696
+    second: arma v2_81
+  - first:
+      213: 169860573571674608
+    second: arma v2_82
+  - first:
+      213: 1750626621122293163
+    second: arma v2_83
+  - first:
+      213: -5599531986427211944
+    second: arma v2_84
+  - first:
+      213: -9172359308612914649
+    second: arma v2_85
+  - first:
+      213: 6854822763497003741
+    second: arma v2_86
+  - first:
+      213: 4021510421593714838
+    second: arma v2_87
+  - first:
+      213: -6339077039939705385
+    second: arma v2_88
+  - first:
+      213: -8710494025508556152
+    second: arma v2_89
+  - first:
+      213: -5180187109467799545
+    second: arma v2_90
+  - first:
+      213: -6547202635307020688
+    second: arma v2_91
+  - first:
+      213: -3296326618781113086
+    second: arma v2_92
+  - first:
+      213: -5605729972884959248
+    second: arma v2_93
+  - first:
+      213: 7738758295085567308
+    second: arma v2_94
+  - first:
+      213: -2574438166727714693
+    second: arma v2_95
+  - first:
+      213: 32365110924510307
+    second: arma v2_96
+  - first:
+      213: 4726510281201177893
+    second: arma v2_97
+  - first:
+      213: -5412553751358999936
+    second: arma v2_98
+  - first:
+      213: -5377671186377170489
+    second: arma v2_99
+  - first:
+      213: 4346386464331106518
+    second: arma v2_100
+  - first:
+      213: -8702965473468953853
+    second: arma v2_101
+  - first:
+      213: -8481056167052995607
+    second: arma v2_102
+  - first:
+      213: 7087332544325432808
+    second: arma v2_103
+  - first:
+      213: 6362122892124790092
+    second: arma v2_104
+  - first:
+      213: 7652561368358266149
+    second: arma v2_105
+  - first:
+      213: -911766112956547882
+    second: arma v2_106
+  - first:
+      213: -2359154462272857696
+    second: arma v2_107
+  - first:
+      213: -8667180111397794962
+    second: arma v2_108
+  - first:
+      213: -8929460933647054784
+    second: arma v2_109
+  - first:
+      213: -73917701995229242
+    second: arma v2_110
+  - first:
+      213: -5772520036426669645
+    second: arma v2_111
+  - first:
+      213: 6161410510366875398
+    second: arma v2_112
+  - first:
+      213: 839876589886992270
+    second: arma v2_113
+  - first:
+      213: 3837960150841484699
+    second: arma v2_114
+  - first:
+      213: 4440373778872383388
+    second: arma v2_115
+  - first:
+      213: 6677136392602038712
+    second: arma v2_116
+  - first:
+      213: -1244611351318379792
+    second: arma v2_117
+  - first:
+      213: 4193816137391195080
+    second: arma v2_118
+  - first:
+      213: -1136818395873294157
+    second: arma v2_119
+  - first:
+      213: 7282409048780952918
+    second: arma v2_120
+  - first:
+      213: 1854264813741479117
+    second: arma v2_121
+  - first:
+      213: -4646928662817659055
+    second: arma v2_122
+  - first:
+      213: 4418961797029253449
+    second: arma v2_123
+  - first:
+      213: 507692517118851180
+    second: arma v2_124
+  - first:
+      213: -3002279561555057182
+    second: arma v2_125
+  - first:
+      213: -1901914160401138211
+    second: arma v2_126
+  - first:
+      213: -5454525458109657250
+    second: arma v2_127
+  - first:
+      213: 8989128827623452185
+    second: arma v2_128
+  - first:
+      213: -8202156178620877097
+    second: arma v2_129
+  - first:
+      213: 4111859328391010792
+    second: arma v2_130
+  - first:
+      213: -44002034481198150
+    second: arma v2_131
+  - first:
+      213: 9166733961741150114
+    second: arma v2_132
+  - first:
+      213: -1750132805365421624
+    second: arma v2_133
+  - first:
+      213: -4240835425933630731
+    second: arma v2_134
+  - first:
+      213: 6159482460943773603
+    second: arma v2_135
+  - first:
+      213: -2661304859667586701
+    second: arma v2_136
+  - first:
+      213: -354125920746796567
+    second: arma v2_137
+  - first:
+      213: -3183815223233604183
+    second: arma v2_138
+  - first:
+      213: -8122787016236952065
+    second: arma v2_139
+  - first:
+      213: 7347893388667501176
+    second: arma v2_140
+  - first:
+      213: 1135762013253037019
+    second: arma v2_141
+  - first:
+      213: 5194267101190990426
+    second: arma v2_142
+  - first:
+      213: -88797036440576304
+    second: arma v2_143
+  - first:
+      213: 6876519090046740175
+    second: arma v2_144
+  - first:
+      213: 3995285019791829768
+    second: arma v2_145
+  - first:
+      213: -7564722252461549856
+    second: arma v2_146
+  - first:
+      213: 4609976018433126778
+    second: arma v2_147
+  - first:
+      213: 6610000106682595505
+    second: arma v2_148
+  - first:
+      213: -8841025946712434248
+    second: arma v2_149
+  - first:
+      213: 8371988524453471263
+    second: arma v2_150
+  - first:
+      213: 4772174763642695702
+    second: arma v2_151
+  - first:
+      213: 6710912712070117872
+    second: arma v2_152
+  - first:
+      213: -3682949418961977500
+    second: arma v2_153
+  - first:
+      213: 6362008245071310124
+    second: arma v2_154
+  - first:
+      213: -2940859994093950651
+    second: arma v2_155
+  - first:
+      213: 1806009760844537259
+    second: arma v2_156
+  - first:
+      213: -8789813333900637977
+    second: arma v2_157
+  - first:
+      213: -604451815832298052
+    second: arma v2_158
+  - first:
+      213: 5885222162760335808
+    second: arma v2_159
+  - first:
+      213: -4882731226421217560
+    second: arma v2_160
+  - first:
+      213: 6589197370232106442
+    second: arma v2_161
+  - first:
+      213: 1890403227795653678
+    second: arma v2_162
+  - first:
+      213: 468550418551525039
+    second: arma v2_163
+  - first:
+      213: -3351338663314901874
+    second: arma v2_164
+  - first:
+      213: -5138873016995528301
+    second: arma v2_165
+  - first:
+      213: -8568677559377461432
+    second: arma v2_166
+  - first:
+      213: 151513260405655446
+    second: arma v2_167
+  - first:
+      213: 5765166545927537935
+    second: arma v2_168
+  - first:
+      213: -6937150038744056171
+    second: arma v2_169
+  - first:
+      213: -340354387626065973
+    second: arma v2_170
+  - first:
+      213: 3221762814186487148
+    second: arma v2_171
+  - first:
+      213: 5814818295175306293
+    second: arma v2_172
+  - first:
+      213: 1822021256322505431
+    second: arma v2_173
+  - first:
+      213: 2145883991652306278
+    second: arma v2_174
+  - first:
+      213: -5105598903591890522
+    second: arma v2_175
+  - first:
+      213: 6504190542955047746
+    second: arma v2_176
+  - first:
+      213: 620795652324609631
+    second: arma v2_177
+  - first:
+      213: 2612594757447401828
+    second: arma v2_178
+  - first:
+      213: -6079131669926840357
+    second: arma v2_179
+  - first:
+      213: -7552060676819202298
+    second: arma v2_180
+  - first:
+      213: 1207423268361288684
+    second: arma v2_181
+  - first:
+      213: 3583289859669391629
+    second: arma v2_182
+  - first:
+      213: 364770098437334946
+    second: arma v2_183
+  - first:
+      213: -2633195835060213205
+    second: arma v2_184
+  - first:
+      213: -8766815985807643716
+    second: arma v2_185
+  - first:
+      213: -5861948266653470145
+    second: arma v2_186
+  - first:
+      213: -4946723798822521186
+    second: arma v2_187
+  - first:
+      213: 2871423112996866017
+    second: arma v2_188
+  - first:
+      213: -6217399341966777068
+    second: arma v2_189
+  - first:
+      213: -3526176209183448525
+    second: arma v2_190
+  - first:
+      213: -3060354520890297399
+    second: arma v2_191
+  - first:
+      213: -1876011962031752128
+    second: arma v2_192
+  - first:
+      213: -6324757159079561565
+    second: arma v2_193
+  - first:
+      213: -810190362023193541
+    second: arma v2_194
+  - first:
+      213: 7843499404706506199
+    second: arma v2_195
+  - first:
+      213: 1919206656130468601
+    second: arma v2_196
+  - first:
+      213: -3038901493763515191
+    second: arma v2_197
+  - first:
+      213: -1475372099510264927
+    second: arma v2_198
+  - first:
+      213: 5123368853908666131
+    second: arma v2_199
+  - first:
+      213: -3107602509512393759
+    second: arma v2_200
+  - first:
+      213: 779976793753880346
+    second: arma v2_201
+  - first:
+      213: 733471522164101961
+    second: arma v2_202
+  - first:
+      213: -8981684557557533588
+    second: arma v2_203
+  - first:
+      213: 1829858659473677549
+    second: arma v2_204
+  - first:
+      213: 5332989458175493792
+    second: arma v2_205
+  - first:
+      213: -2542148932067218239
+    second: arma v2_206
+  - first:
+      213: 5777835982873275531
+    second: arma v2_207
+  - first:
+      213: 7131880827536360150
+    second: arma v2_208
+  - first:
+      213: 6954533716258564088
+    second: arma v2_209
+  - first:
+      213: -2483753683132218100
+    second: arma v2_210
+  - first:
+      213: 2045925384526843540
+    second: arma v2_211
+  - first:
+      213: -2034235886299505874
+    second: arma v2_212
+  - first:
+      213: -4460857569999029834
+    second: arma v2_213
+  - first:
+      213: -5441785509426595027
+    second: arma v2_214
+  - first:
+      213: 4101232549401417582
+    second: arma v2_215
+  - first:
+      213: 5747856900341825203
+    second: arma v2_216
+  - first:
+      213: -128476914996643933
+    second: arma v2_217
+  - first:
+      213: -4903295040320539134
+    second: arma v2_218
+  - first:
+      213: 4498824678619609157
+    second: arma v2_219
+  - first:
+      213: 5556522263551276863
+    second: arma v2_220
+  - first:
+      213: -6306284050134321989
+    second: arma v2_221
+  - first:
+      213: -8923366359725993339
+    second: arma v2_222
+  - first:
+      213: -6657564072374653908
+    second: arma v2_223
+  - first:
+      213: 5001758192537196337
+    second: arma v2_224
+  - first:
+      213: -5996203763521140993
+    second: arma v2_225
+  - first:
+      213: 7280677928463319212
+    second: arma v2_226
+  - first:
+      213: 173595600660103234
+    second: arma v2_227
+  - first:
+      213: -7949217956078717387
+    second: arma v2_228
+  - first:
+      213: 1869008966447119743
+    second: arma v2_229
+  - first:
+      213: 3247275818613907848
+    second: arma v2_230
+  - first:
+      213: -6998987291893021227
+    second: arma v2_231
+  - first:
+      213: 6920279398036545081
+    second: arma v2_232
+  - first:
+      213: 3836542831245671628
+    second: arma v2_233
+  - first:
+      213: 8023989476878098202
+    second: arma v2_234
+  - first:
+      213: 5322223548697006426
+    second: arma v2_235
+  - first:
+      213: 309300907468270511
+    second: arma v2_236
+  - first:
+      213: 8467967188129485122
+    second: arma v2_237
+  - first:
+      213: 4448718075074529799
+    second: arma v2_238
+  - first:
+      213: -1121755404395264831
+    second: arma v2_239
+  - first:
+      213: -8844708460773379650
+    second: arma v2_240
+  - first:
+      213: -2773289554195751978
+    second: arma v2_241
+  - first:
+      213: -6879678224161524807
+    second: arma v2_242
+  - first:
+      213: -8845549915034635287
+    second: arma v2_243
+  - first:
+      213: 2739720689538809868
+    second: arma v2_244
+  - first:
+      213: 5176745209835761864
+    second: arma v2_245
+  - first:
+      213: -73127117552940103
+    second: arma v2_246
+  - first:
+      213: -6672030315898981500
+    second: arma v2_247
+  - first:
+      213: 7488155826249630531
+    second: arma v2_248
+  - first:
+      213: 6250753221122197348
+    second: arma v2_249
+  - first:
+      213: -2634969257965325111
+    second: arma v2_250
+  - first:
+      213: -2476333240221308425
+    second: arma v2_251
+  - first:
+      213: -4725916125433260484
+    second: arma v2_252
+  - first:
+      213: -602989205255702461
+    second: arma v2_253
+  - first:
+      213: -1446307723054067892
+    second: arma v2_254
+  - first:
+      213: 2157672594625361139
+    second: arma v2_255
+  - first:
+      213: -5229772310890948987
+    second: arma v2_256
+  - first:
+      213: -3107626772367450164
+    second: arma v2_257
+  - first:
+      213: -1859203033447174279
+    second: arma v2_258
+  - first:
+      213: 6717483152193807579
+    second: arma v2_259
+  - first:
+      213: -8192243223711909574
+    second: arma v2_260
+  - first:
+      213: -5836489822842217030
+    second: arma v2_261
+  - first:
+      213: -685689652726815110
+    second: arma v2_262
+  - first:
+      213: -3867749662879346727
+    second: arma v2_263
+  - first:
+      213: 2509041581980919717
+    second: arma v2_264
+  - first:
+      213: -3447119680167144130
+    second: arma v2_265
+  - first:
+      213: -2344312076460824003
+    second: arma v2_266
+  - first:
+      213: 7211415536941301061
+    second: arma v2_267
+  - first:
+      213: 3132208512790586850
+    second: arma v2_268
+  - first:
+      213: -485717752324287292
+    second: arma v2_269
+  - first:
+      213: -3619749452442088230
+    second: arma v2_270
+  - first:
+      213: -422150338267409201
+    second: arma v2_271
+  - first:
+      213: -4082693823554722521
+    second: arma v2_272
+  - first:
+      213: 6738490496384685995
+    second: arma v2_273
+  - first:
+      213: 4537898175910139947
+    second: arma v2_274
+  - first:
+      213: 6794014169171929959
+    second: arma v2_275
+  - first:
+      213: -870206915166319877
+    second: arma v2_276
+  - first:
+      213: -3451578434715012145
+    second: arma v2_277
+  - first:
+      213: 1184200820507462033
+    second: arma v2_278
+  - first:
+      213: 2004995283423678140
+    second: arma v2_279
+  - first:
+      213: -675370173253229715
+    second: arma v2_280
+  - first:
+      213: 2683374822970810719
+    second: arma v2_281
+  - first:
+      213: -2557639203364688369
+    second: arma v2_282
+  - first:
+      213: 8833949517308042578
+    second: arma v2_283
+  - first:
+      213: -5820221932158156926
+    second: arma v2_284
+  - first:
+      213: 6119483899098746128
+    second: arma v2_285
+  - first:
+      213: -7043349805733724287
+    second: arma v2_286
+  - first:
+      213: 818224760228150714
+    second: arma v2_287
+  - first:
+      213: -6677070391332210285
+    second: arma v2_288
+  - first:
+      213: 2788226039276183224
+    second: arma v2_289
+  - first:
+      213: 5532640379816770871
+    second: arma v2_290
+  - first:
+      213: 472705459763960035
+    second: arma v2_291
+  - first:
+      213: 3284640186552794611
+    second: arma v2_292
+  - first:
+      213: 8797360509334511527
+    second: arma v2_293
+  - first:
+      213: 5655492168016538295
+    second: arma v2_294
+  - first:
+      213: 3584931716449601963
+    second: arma v2_295
+  - first:
+      213: -8491144878362202481
+    second: arma v2_296
+  - first:
+      213: -6424539432457539660
+    second: arma v2_297
+  - first:
+      213: 7860066213972953551
+    second: arma v2_298
+  - first:
+      213: 5266843805320471685
+    second: arma v2_299
+  - first:
+      213: -1623247593156960950
+    second: arma v2_300
+  - first:
+      213: 1473318037987237867
+    second: arma v2_301
+  - first:
+      213: 6775840754737302031
+    second: arma v2_302
+  - first:
+      213: 767558411214278770
+    second: arma v2_303
+  - first:
+      213: -8227731756444299382
+    second: arma v2_304
+  - first:
+      213: -7261018385299872618
+    second: arma v2_305
+  - first:
+      213: -8338820943340097711
+    second: arma v2_306
+  - first:
+      213: 4189931482996257242
+    second: arma v2_307
+  - first:
+      213: -572587020632497606
+    second: arma v2_308
+  - first:
+      213: -540144474492916938
+    second: arma v2_309
+  - first:
+      213: 8656447487666238281
+    second: arma v2_310
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arma v2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5026fd3dae042ea0800000000000000
+      internalID: -5898573474716835750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arma v2_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65c06ab021d62480800000000000000
+      internalID: -8924215673091996309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arma v2_2
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 480
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f63b911e436b0d30800000000000000
+      internalID: 4398718648011405043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arma v2_3
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 480
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767f69a4fc4faab00800000000000000
+      internalID: 840753451604834151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arma v2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1fbe8bec4e3d280800000000000000
+      internalID: -9019614052176104963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arma v2_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6e5df146abb3b00800000000000000
+      internalID: 809445497236743864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arma v2_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 768
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a10e3adc5102c360800000000000000
+      internalID: 7188309453546848673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 70535e86c1697e64087bf7ead3f0ed36
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,7 +15,7 @@ public class ControllerHandler : MonoBehaviour
     [SerializeField] private GameEvent upButtonEvent = null;
     [SerializeField] private GameEvent downButtonEvent = null;
     [SerializeField] private GameEvent anyDirectionalAxisEvent = null;
-    //[SerializeField] private GameEvent noDirectionalAxisEvent = null;
+    [SerializeField] private GameEvent noDirectionalAxisEvent = null;
     private bool _isHorizontalAxisInUse;
     private bool _isVerticalAxisInUse;
 
@@ -57,6 +57,8 @@ public class ControllerHandler : MonoBehaviour
         CheckingStartButton();
         CheckingFireButton();
         CheckingConfirmButton();
+        if (Math.Abs(Input.GetAxisRaw(Global.HorizontalAxis)) < Global.Tolerance && Math.Abs(Input.GetAxisRaw(Global.VerticalAxis)) < Global.Tolerance)
+            noDirectionalAxisEvent.Raise();
     }
 
     #region Horizontal Functions
