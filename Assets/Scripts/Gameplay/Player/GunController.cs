@@ -22,7 +22,8 @@ public class GunController : MonoBehaviour
 
     private void Update()
     {
-        if (gunCollected.Value && !DebugMode.Value)
+        if (DebugMode.Value) return;
+        if (gunCollected.Value)
             gunGameObject.SetActive(true);
         else
             gunGameObject.SetActive(false);
@@ -30,7 +31,7 @@ public class GunController : MonoBehaviour
 
     public void ShootDisc()
     {
-        if (remainingDiscs.Value <= 0 && gunCollected.Value && !DebugMode.Value) return;
+        if (remainingDiscs.Value <= 0 || !gunCollected.Value) return;
         gunAnimator.SetTrigger("shoot");
         Invoke(nameof(ReleaseDisc), 0.6f);
     }
@@ -64,14 +65,5 @@ public class GunController : MonoBehaviour
         remainingDiscs.Value++;
         gunAnimator.SetBool("havingDisc", true);
         havingDisc.Value = true;
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        foreach (var contact in collision.contacts)
-        {
-            if (contact.otherCollider.CompareTag(Global.DiscGunTag))
-                gunCollected.Value = true;
-        }
     }
 }
