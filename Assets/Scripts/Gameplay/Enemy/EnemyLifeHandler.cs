@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
+using System;
+using System.Collections;
 
 public class EnemyLifeHandler : MonoBehaviour
 {
     [SerializeField] private FloatReference maxEnemyLife = null;
     [SerializeField] private GameEvent enemyDamaged = null;
     [SerializeField] private GameEvent enemyDead = null;
+    [SerializeField] private ParticleSystem particles = null;
+    [SerializeField] private GameObject spriteHolder = null;
 
     private float _actualEnemyLife;
 
@@ -13,13 +17,11 @@ public class EnemyLifeHandler : MonoBehaviour
         _actualEnemyLife = maxEnemyLife.Value;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        foreach (var contact in collision.contacts)
-        {
-            if (contact.otherCollider.CompareTag(Global.PlayerDiscTag))
-                DamageReceived(1);
-        }
+
+        if (other.gameObject.CompareTag(Global.PlayerDiscTag))
+            DamageReceived(1);
     }
 
     private void DamageReceived(float damage)
@@ -28,9 +30,19 @@ public class EnemyLifeHandler : MonoBehaviour
         if (_actualEnemyLife <= 0)
         {
             enemyDead.Raise();
-            gameObject.SetActive(false);
+            StartCoroutine(LeftToDEath());
         }
         else
             enemyDamaged.Raise();
+    }
+
+    private IEnumerator LeftToDEath()
+    {
+        particles.gameObject.SetActive(true);
+        spriteHolder.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        gameObject.SetActive(false);
+        particles.gameObject.SetActive(false);
+        spriteHolder.SetActive(true);
     }
 }
