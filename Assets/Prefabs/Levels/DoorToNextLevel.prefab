@@ -505,6 +505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7662867110475760048}
   - component: {fileID: 6652530788583772172}
+  - component: {fileID: 1823008403760485994}
   m_Layer: 0
   m_Name: DoorToNextLevel
   m_TagString: Untagged
@@ -552,6 +553,33 @@ MonoBehaviour:
   door: {fileID: 5976507074350101263}
   doorAudio: {fileID: 8300000, guid: 985ae0838e9dcc74c94a59af3d52aa6b, type: 3}
   doorSource: {fileID: 6522179146689180984}
+--- !u!114 &1823008403760485994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801963068428007431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18e8d76b6b3f54f94b92fae64ef79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 051b4368a98ad134db5b55e1a33cc3b6, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6652530788583772172}
+        m_MethodName: OpenDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &3654483150429452373
 PrefabInstance:
   m_ObjectHideFlags: 0
