@@ -2070,35 +2070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2674137575064194165, guid: 11b5d77426b71d04db8d98c99b38d59c,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3125847622884352645, guid: 11b5d77426b71d04db8d98c99b38d59c,
         type: 3}
       propertyPath: m_Name
       value: Gameplay Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 3125847622884352645, guid: 11b5d77426b71d04db8d98c99b38d59c,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3936682237250522657, guid: 11b5d77426b71d04db8d98c99b38d59c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -51.80011
-      objectReference: {fileID: 0}
-    - target: {fileID: 5532632327081032768, guid: 11b5d77426b71d04db8d98c99b38d59c,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785977945867870966, guid: 11b5d77426b71d04db8d98c99b38d59c,
-        type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7723477254814158667, guid: 11b5d77426b71d04db8d98c99b38d59c,
         type: 3}
@@ -2204,11 +2179,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8157628477215117286, guid: 11b5d77426b71d04db8d98c99b38d59c,
-        type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11b5d77426b71d04db8d98c99b38d59c, type: 3}
