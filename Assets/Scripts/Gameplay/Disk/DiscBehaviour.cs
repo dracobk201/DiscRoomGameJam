@@ -35,7 +35,7 @@ public class DiscBehaviour : MonoBehaviour
         }
     }
 
-    private void DestroyDisc()
+    public void DestroyDisc()
     {
         transform.rotation = Quaternion.identity;
         gameObject.SetActive(false);

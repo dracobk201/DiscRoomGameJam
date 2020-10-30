@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 1953835311749331627}
   - component: {fileID: 4326108406214957981}
   - component: {fileID: 14846827249403884}
+  - component: {fileID: 8935038553805418870}
   m_Layer: 0
   m_Name: Disc Saw
   m_TagString: PlayerDisc
@@ -287,6 +288,33 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.85265124, y: 0.04703632, z: 0.65443563}
   m_Center: {x: 0.00936985, y: -0.000000059604645, z: 0.008518189}
+--- !u!114 &8935038553805418870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3747432133381290499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a18e8d76b6b3f54f94b92fae64ef79a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 7cb630fb9c0fda743bd285434b886b0f, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4326108406214957981}
+        m_MethodName: DestroyDisc
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5572797425489617520
 GameObject:
   m_ObjectHideFlags: 0
