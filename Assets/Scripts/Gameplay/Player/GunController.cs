@@ -33,6 +33,7 @@ public class GunController : MonoBehaviour
     {
         if (remainingDiscs.Value <= 0 || !gunCollected.Value) return;
         gunAnimator.SetTrigger("shoot");
+        havingDisc.Value = false;
         Invoke(nameof(ReleaseDisc), 0.6f);
     }
 
@@ -52,7 +53,6 @@ public class GunController : MonoBehaviour
                 if (remainingDiscs.Value <= 0)
                 {
                     gunAnimator.SetBool("havingDisc", false);
-                    havingDisc.Value = false;
                 }
                 playerShot.Raise();
                 break;
