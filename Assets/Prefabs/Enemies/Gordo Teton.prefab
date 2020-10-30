@@ -134,8 +134,8 @@ GameObject:
   - component: {fileID: 5955234386832380932}
   - component: {fileID: 5955234386832380933}
   m_Layer: 0
-  m_Name: "Gordo tet\xF3n"
-  m_TagString: Untagged
+  m_Name: Gordo Teton
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -189,6 +189,8 @@ MonoBehaviour:
     variable: {fileID: 11400000, guid: 193dd32aac892604893a3910edb056f6, type: 2}
   enemyDamaged: {fileID: 11400000, guid: 64e6a0e6ba301c9468d57f6c992376a8, type: 2}
   enemyDead: {fileID: 11400000, guid: 0fec3afe5aba7c343b294af44420f030, type: 2}
+  particles: {fileID: 0}
+  spriteHolder: {fileID: 0}
 --- !u!33 &5955234386832380934
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -288,7 +290,7 @@ Animator:
   m_GameObject: {fileID: 5955234386832380930}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a988261451b58da41a9afac29e07d47c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5fa6fc0bad0c887419e28a45e0eceabd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

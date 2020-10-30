@@ -25,6 +25,7 @@ public class PlayerLifeHandler : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (DebugMode.Value) return;
 
         _timeForWait -= Time.deltaTime;
@@ -44,6 +45,7 @@ public class PlayerLifeHandler : MonoBehaviour
             else
                 _havingDiscLastTime = true;
         }
+        */
     }
 
     /*

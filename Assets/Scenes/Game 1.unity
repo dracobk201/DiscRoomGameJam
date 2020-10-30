@@ -225,6 +225,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelSandbox
       objectReference: {fileID: 0}
+    - target: {fileID: 9100508158013209860, guid: 63609e1c47c74de40bf46b032653fe42,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100508158799369228, guid: 63609e1c47c74de40bf46b032653fe42,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100508158824650953, guid: 63609e1c47c74de40bf46b032653fe42,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100508159419133498, guid: 63609e1c47c74de40bf46b032653fe42,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63609e1c47c74de40bf46b032653fe42, type: 3}
 --- !u!1 &705507993
