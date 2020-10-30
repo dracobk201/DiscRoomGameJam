@@ -66,6 +66,7 @@ public class PlayerLifeHandler : MonoBehaviour
 
     private void DamageReceived(float damage)
     {
+        Debug.Log("AUCH");
         actualPlayerLife.Value -= damage;
         playerDamaged.Raise();
         if (actualPlayerLife.Value <= 0)
