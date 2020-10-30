@@ -9,6 +9,7 @@ public class EnemyLifeHandler : MonoBehaviour
     [SerializeField] private GameEvent enemyDead = null;
     [SerializeField] private ParticleSystem particles = null;
     [SerializeField] private GameObject spriteHolder = null;
+    [SerializeField] private CapsuleCollider capsule = null;
 
     private float _actualEnemyLife;
     private bool _death = false;
@@ -43,11 +44,14 @@ public class EnemyLifeHandler : MonoBehaviour
 
     private IEnumerator LeftToDEath()
     {
+        capsule.enabled = false;
         particles.gameObject.SetActive(true);
         spriteHolder.SetActive(false);
         yield return new WaitForSeconds(1.5f);
         gameObject.SetActive(false);
         particles.gameObject.SetActive(false);
         spriteHolder.SetActive(true);
+        capsule.enabled = true;
+
     }
 }

@@ -263,6 +263,7 @@ MonoBehaviour:
   enemyDead: {fileID: 11400000, guid: 0fec3afe5aba7c343b294af44420f030, type: 2}
   particles: {fileID: 8936817397248879983}
   spriteHolder: {fileID: 5017533566933886561}
+  capsule: {fileID: 5955234386832380928}
 --- !u!33 &5955234386832380934
 MeshFilter:
   m_ObjectHideFlags: 0
