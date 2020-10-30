@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205e7c91b07f6204981b85a521b60d63, type: 3}
   m_Name: Gun Collected
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1
   description: 

@@ -79,6 +79,7 @@ MonoBehaviour:
     useVariable: 1
     constantValue: 0
     variable: {fileID: 11400000, guid: ac9ecc22aad49554b8772ca31d54f6e3, type: 2}
+  onGunTaken: {fileID: 11400000, guid: 051b4368a98ad134db5b55e1a33cc3b6, type: 2}
 --- !u!1 &3635552364888652084
 GameObject:
   m_ObjectHideFlags: 0
