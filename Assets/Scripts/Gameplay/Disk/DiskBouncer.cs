@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class DiskBouncer : MonoBehaviour
 {
@@ -10,6 +8,7 @@ public class DiskBouncer : MonoBehaviour
 
     [SerializeField]
     private float minVelocity = 10f;
+    [SerializeField] private GameEvent discBounced = null;
 
     private Vector3 lastFrameVelocity;
     private Rigidbody rb;
@@ -36,5 +35,6 @@ public class DiskBouncer : MonoBehaviour
         var direction = Vector3.Reflect(lastFrameVelocity.normalized, collisionNormal);
         direction.y = 0;
         rb.velocity = direction * Mathf.Max(speed, minVelocity);
+        discBounced.Raise();
     }
 }

@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205e7c91b07f6204981b85a521b60d63, type: 3}
-  m_Name: Gun Collected
+  m_Script: {fileID: 11500000, guid: df050610444e86a459e15f261d2d9bf3, type: 3}
+  m_Name: Disc Retrieved
   m_EditorClassIdentifier: 
-  value: 0
-  description: 
+  audioName: Disc Retrieved
+  clips:
+  - {fileID: 8300000, guid: c3433245be06bad4386baddc37759a25, type: 3}
+  type: 2
+  canLoop: 0

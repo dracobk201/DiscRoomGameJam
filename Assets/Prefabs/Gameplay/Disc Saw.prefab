@@ -250,6 +250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialVelocity: {x: 0, y: 0, z: 0}
   minVelocity: 10
+  discBounced: {fileID: 11400000, guid: 1bde6a412f8d9024f9b27198af91641a, type: 2}
 --- !u!114 &4326108406214957981
 MonoBehaviour:
   m_ObjectHideFlags: 0

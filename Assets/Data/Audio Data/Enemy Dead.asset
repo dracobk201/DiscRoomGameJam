@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df050610444e86a459e15f261d2d9bf3, type: 3}
+  m_Name: Enemy Dead
+  m_EditorClassIdentifier: 
+  audioName: Enemy Dead
+  clips:
+  - {fileID: 8300000, guid: d47ba828296492846892d745e3175b6b, type: 3}
+  - {fileID: 8300000, guid: e37b0dfb79b90804ebb6b0a1b451050f, type: 3}
+  - {fileID: 8300000, guid: 2631bec4ad147da4a9eb054bebac840c, type: 3}
+  type: 2
+  canLoop: 0
