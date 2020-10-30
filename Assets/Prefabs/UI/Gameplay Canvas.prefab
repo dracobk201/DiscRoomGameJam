@@ -585,7 +585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb2d70a4e4762648b0e24210fa6573d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHurt: 0
+  speed: 4
   HurtVisualHelpImage: {fileID: 3808521108280510723}
 --- !u!114 &1954807202
 MonoBehaviour:
