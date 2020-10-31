@@ -845,8 +845,7 @@ MonoBehaviour:
 
     <b>level XX</b>
 
-    and the meteor has destroyed
-    you.'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2911e1fba0926d45a4b2ef557b17540, type: 2}
   m_sharedMaterial: {fileID: -6931656309706584952, guid: a2911e1fba0926d45a4b2ef557b17540,
