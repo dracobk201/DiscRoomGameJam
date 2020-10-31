@@ -15,3 +15,4 @@ MonoBehaviour:
   enemies:
   - {fileID: 11400000, guid: e5a1d602229bb36479e9ec03ffed5535, type: 2}
   - {fileID: 11400000, guid: 017a05945d1d53d4883670de5ee1874f, type: 2}
+  - {fileID: 11400000, guid: 226670861ffe6b04ab9377f06d16a0a2, type: 2}
