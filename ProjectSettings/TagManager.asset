@@ -10,6 +10,7 @@ TagManager:
   - DiscRetriever
   - Asteroid
   - DiscGun
+  - EnemyDisc
   layers:
   - Default
   - TransparentFX

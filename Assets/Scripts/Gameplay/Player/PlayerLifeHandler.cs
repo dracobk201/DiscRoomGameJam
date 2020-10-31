@@ -61,8 +61,9 @@ public class PlayerLifeHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag(Global.EnemyTag))
+        if (other.gameObject.CompareTag(Global.EnemyTag) || other.gameObject.CompareTag(Global.EnemyDiscTag))
             DamageReceived(damageByEnemy.Value);
+        
     }
 
 
