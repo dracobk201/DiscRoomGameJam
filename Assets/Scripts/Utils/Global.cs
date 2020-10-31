@@ -25,7 +25,7 @@ public static class Global
 
     #region Scene Names
     public const string MainMenuScene = "Main Menu";
-    public const string FirstLevelScene = "Game";
+    public const string LevelScene = "Game 1";
     #endregion
 
     #region Animations

@@ -18,6 +18,7 @@ public class GunController : MonoBehaviour
         remainingDiscs.Value = 1;
         havingDisc.Value = true;
         gunAnimator.SetBool("havingDisc", true);
+        gunCollected.Value = false;
     }
 
     private void Update()
