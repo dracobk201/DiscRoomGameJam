@@ -24,7 +24,7 @@ public class LevelInstantiator : MonoBehaviour
     {
         cleanProps.Raise();
         var numberOfAssets = Random.Range(0, props.props.Count);
-        var propsSorted = props.props.OrderBy(a => GUID.Generate()).ToList();
+        var propsSorted = props.props.OrderBy(a => System.Guid.NewGuid()).ToList();
         instantiateProps(propsSorted.GetRange(0, numberOfAssets));
         loadLevelCompleted.Raise();
     }
@@ -34,7 +34,7 @@ public class LevelInstantiator : MonoBehaviour
         foreach (var item in props)
         {
             var viableInstantiationPoints = instatiationPoints.FindAll(x => x.propType == item.propType);
-            viableInstantiationPoints = viableInstantiationPoints.OrderBy(a => GUID.Generate()).ToList();
+            viableInstantiationPoints = viableInstantiationPoints.OrderBy(a => System.Guid.NewGuid()).ToList();
             for (int i = 0; i < viableInstantiationPoints.Count; i++)
             {
                 var aux = viableInstantiationPoints[i];
