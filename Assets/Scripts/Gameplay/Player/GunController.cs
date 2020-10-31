@@ -11,6 +11,7 @@ public class GunController : MonoBehaviour
     [SerializeField] private GameEvent playerShot = null;
     [SerializeField] private GameObject gunGameObject = null;
     [SerializeField] private Transform discInitialPosition = null;
+    private bool _waitingForLastCall = false;
 
     private void Awake()
     {
@@ -32,9 +33,10 @@ public class GunController : MonoBehaviour
 
     public void ShootDisc()
     {
-        if (remainingDiscs.Value <= 0 || !gunCollected.Value) return;
+        if (remainingDiscs.Value <= 0 || !gunCollected.Value || _waitingForLastCall) return;
         gunAnimator.SetTrigger("shoot");
         havingDisc.Value = false;
+        _waitingForLastCall = true;
         Invoke(nameof(ReleaseDisc), 0.6f);
     }
 
@@ -51,6 +53,7 @@ public class GunController : MonoBehaviour
                 discs.Items[i].transform.localRotation = initialRotation;
                 discs.Items[i].SetActive(true);
                 remainingDiscs.Value--;
+                _waitingForLastCall = false;
                 if (remainingDiscs.Value <= 0)
                 {
                     gunAnimator.SetBool("havingDisc", false);
