@@ -19,4 +19,9 @@ public class GameOverCanvasBehaviour : MonoBehaviour
         _gameOver = true;
         gameOverLabel.text = $"You have barely reached\n<b>level {currentLevel.value}</b>\nand the meteor has destroyed you.";
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
