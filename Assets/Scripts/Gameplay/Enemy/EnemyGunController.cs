@@ -40,6 +40,6 @@ public class EnemyGunController : MonoBehaviour
 
     public void PlayerFound()
     {
-        _playerFound = true;
+        //_playerFound = true;
     }
 }

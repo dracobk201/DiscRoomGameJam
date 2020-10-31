@@ -15,12 +15,16 @@ public class PlayerLifeHandler : MonoBehaviour
     private bool _havingDiscLastTime;
     private float _timeForWait;
 
+    private void Awake()
+    {
+        actualPlayerLife.Value = maxPlayerLife.Value;
+    }
+
     private void Start()
     {
         _timeForWait = 1;
         playerAlive.Value = true;
         _havingDiscLastTime = true;
-        actualPlayerLife.Value = maxPlayerLife.Value;
     }
 
     private void Update()
@@ -61,15 +65,15 @@ public class PlayerLifeHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag(Global.EnemyTag) || other.gameObject.CompareTag(Global.EnemyDiscTag))
+        if (other.gameObject.CompareTag(Global.EnemyTag))
             DamageReceived(damageByEnemy.Value);
-        
+        else if (other.gameObject.CompareTag(Global.EnemyDiscTag))
+            DamageReceived(damageByEnemy.Value / 2);
     }
 
 
     private void DamageReceived(float damage)
     {
-        Debug.Log("AUCH");
         actualPlayerLife.Value -= damage;
         playerDamaged.Raise();
         if (actualPlayerLife.Value <= 0)

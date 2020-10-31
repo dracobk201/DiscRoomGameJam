@@ -34,7 +34,6 @@ public class EnemyLevelCreator : MonoBehaviour
                     i = 9999;
                     Instantiate(item.prefab, positinToInstantiate(), Quaternion.identity);
                     enemyCreated.Raise();
-                    Debug.Log("Instantiated");
                 }
             }
         }

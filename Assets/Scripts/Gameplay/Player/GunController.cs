@@ -66,7 +66,8 @@ public class GunController : MonoBehaviour
 
     public void DiscRetrieved()
     {
-        remainingDiscs.Value++;
+        if (remainingDiscs.Value <= 0)
+            remainingDiscs.Value++;
         gunAnimator.SetBool("havingDisc", true);
         havingDisc.Value = true;
     }

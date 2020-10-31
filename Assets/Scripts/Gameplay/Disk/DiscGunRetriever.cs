@@ -7,7 +7,6 @@ public class DiscGunRetriever : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print(other.gameObject.name);
         if (other.gameObject.CompareTag(Global.PlayerTag))
         {
             gunCollected.Value = true;
