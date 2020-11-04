@@ -18,7 +18,8 @@ public class DiscBehaviour : MonoBehaviour
             Debug.LogError("No Rigidbody found");
         Vector3 aux = transform.forward * discVelocity.Value;
         aux.y = 0;
-        rigidbodyResult.velocity = aux;
+        discRigidbody.useGravity = false;
+        discRigidbody.velocity = aux;
         _actualTimeProgress = discTimeOfLife.Value;
         discGameplaySprite.SetActive(true);
         discVerticalSprite.SetActive(false);
@@ -30,6 +31,7 @@ public class DiscBehaviour : MonoBehaviour
         if (_actualTimeProgress <= 0)
         {
             discRigidbody.velocity = Vector3.zero;
+            discRigidbody.useGravity = true;
             discGameplaySprite.SetActive(false);
             discVerticalSprite.SetActive(true);
         }
