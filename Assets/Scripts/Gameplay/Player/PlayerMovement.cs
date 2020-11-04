@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         float newtranslation = movementAxis.Value.y * moveSpeed.Value * dualDirectionMultiplier * Time.deltaTime;
         var moveDirection = transform.TransformDirection(new Vector3(newstraffe, 0, newtranslation));
         gunAnimator.SetBool("moving", true);
-        playerRigigbody.MovePosition(moveDirection + transform.position);
+        playerRigigbody.velocity = (moveDirection) *  moveSpeed.Value;
         _timeForWait -= Time.deltaTime;
         if (_timeForWait <= 0)
         {
