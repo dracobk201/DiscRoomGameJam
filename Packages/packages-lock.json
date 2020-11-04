@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.brunomikoski.spriteauditor": {
+      "version": "https://github.com/badawe/SpriteAuditor.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "05f722f46b5967d49297986c054795184d727552"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
